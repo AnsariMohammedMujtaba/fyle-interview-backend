@@ -63,12 +63,12 @@ pytest -vvv -s tests/
 docker-compose -f docker-compose.build.yaml build
 ```
 ## Run the application
-````
+```
 docker-compose -f docker-compose.run.yaml up`
 ```
-Access the application at http://localhost:9999
-Stop the application
+Access the application at http://localhost:5000
+## Stop the application
 press Ctrl+C and run bellow command
-
+```
 docker-compose -f docker-compose.run.yaml down
-
+```
